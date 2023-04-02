@@ -127,27 +127,8 @@ input[type=submit] {
   margin: 8px 0;
 }
 		
-/* 设置ul元素为水平排列 */
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-/* 设置li元素为浮动，并指定宽度 */
-li {
-  float: left;
-  width: 20%;
-}
-
 /* 设置a元素为块级，并添加背景色和边框 */
 a {
-  display: block;
-  text-align: center;
-  padding: 16px;
-  background-color: #4EE4F8;
-  border: 1px solid #ccc;
 
 /* 添加font-family属性，指定字体为微软雅黑 */
 font-family:"Microsoft YaHei";
@@ -155,20 +136,17 @@ font-family:"Microsoft YaHei";
 /* 添加text-decoration属性，去掉下划线 */
 text-decoration:none; 
 
-/* 添加font-weight属性，加粗文字 */
-font-weight:bold; 
-
-/* 添加font-size属性，放大文字 */
-font-size:20px; 
-
 /* 添加color属性，改变文字颜色 */
 color:black; 
 }
-
-/* 改变鼠标悬停时的背景色 */
-a:hover {
-  background-color: #6499FF;
-}
+		
+img {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			max-width: 100%;
+			height: auto;
+		}
 
 	</style>
   </head>
@@ -176,7 +154,7 @@ a:hover {
 	<div id="nav">
 	<p>
 		<span id="navname1">Dorn</span>
-		<span id="navname2">&nbsp;Search&nbsp;</span>
+		<span id="navname2">&nbsp;Gallery&nbsp;</span>
 		&nbsp;&nbsp;
 		<button id="navbut1" onclick="window.open('https://dornhub.github.io/','_self');">Dornhub</button>
 		<button id="navbut2" onclick="window.open('https://dornhubpedia.wordpress.com/','_self');">𣿅国百科</button>
@@ -196,55 +174,71 @@ a:hover {
   
 <br><br><br><br><br>
 
-<h1>这是𣿅国著名画家所绘制的𣿅国城市图画</h1>
+<div id="title">
+	<p>这是𣿅国著名画家所绘制的𣿅国城市图画</p>
+	  </div>
 
-	<div style="display:flex;flex-wrap:wrap;">
-		<div style="flex:33.33%;padding:5px;">
-			<img src="https://picsum.photos/300/200" alt="画作1">
-			<p>这是画作1的说明。</p>
-		</div>
-		<div style="flex:33.33%;padding:5px;">
-			<img src="https://picsum.photos/300/200" alt="画作2">
-			<p>这是画作2的说明。</p>
-		</div>
-		<div style="flex:33.33%;padding:5px;">
-			<img src="https://picsum.photos/300/200" alt="画作3">
-			<p>这是画作3的说明。</p>
-		</div>
-		
-		<div style="flex:33.33%;padding:5px;">
-			<img src="https://picsum.photos/300/200" alt="画作4">
-			<p>这是画作4的说明。</p>
-		</div>
-		<div style="flex:33.33%;padding:5px;">
-			<img src="https://picsum.photos/300/200" alt="画作5">
-			<p>这是画作5的说明。</p>
-		</div>
-		<div style="flex:33.33%;padding:5px;">
-			<img src="https://picsum.photos/300/200" alt="画作6">
-			<p>这是画作6的说明。</p>
-		</div>
-		
-        <div style="flex:33.33%;padding:5px;">
-			<img src="https://picsum.photos/300/200" alt="画作7">
-			<p>这是画作7的说明。</p>
-        </div>
-        <div style="flex:33.33%;padding:5px;">
-			<img src="https://picsum.photos/300/200" alt="画作8">
-			<p>这是画作8的说明。</p>
-        </div>
-        <div style="flex:33.33%;padding:5px;">
-			<img src="https://picsum.photos/300/200" alt="画作9">
-			<p>这是画作9的说明。</p>
-        </div>
+	<div style="text-align:center;">
+	<a href="https://cgy22.github.io/paintings/c9110420b4c0491dac1531515d26b10d.png">
+		<img src="https://cgy22.github.io/paintings/c9110420b4c0491dac1531515d26b10d.png" alt="画作1">
+		<p>臭都特别市——总统府</p>
+	</a>
+		<br><br><br>
 
+	<a href="https://cgy22.github.io/paintings/193a7feaef234d37ab49027eef1e2aa2.png">
+		<img src="https://cgy22.github.io/paintings/193a7feaef234d37ab49027eef1e2aa2.png" alt="画作2">
+		<p>臭都特别市——中央公园</p>
+	</a>
+		<br><br><br>
+
+	<a href="https://cgy22.github.io/paintings/3b1021a7d8304a2083e6d203d118fb40.png">
+		<img src="https://cgy22.github.io/paintings/3b1021a7d8304a2083e6d203d118fb40.png" alt="画作3">
+		<p>后雄省-后雄市</p>
+	</a>
+		<br><br><br>
+
+	<a href="https://cgy22.github.io/paintings/5842f46e661b44feb3bfb6f4e6be8cb0.png">
+        	<img src="https://cgy22.github.io/paintings/5842f46e661b44feb3bfb6f4e6be8cb0.png" alt="画作4">
+        	<p>尼根市</p>
+	</a>
+		<br><br><br>
+
+	<a href="https://cgy22.github.io/paintings/ca39e4fdfd7e49388aa1329eb8ebe52a.png">
+        	<img src="https://cgy22.github.io/paintings/ca39e4fdfd7e49388aa1329eb8ebe52a.png" alt="画作5">
+        	<p>刺梨省-刺梨市</p>
+	</a>
+		<br><br><br>
+
+        <a href="https://cgy22.github.io/paintings/b680c07195cf4e7c91f06fe01735aed4.png">
+		<img src="https://cgy22.github.io/paintings/b680c07195cf4e7c91f06fe01735aed4.png" alt="画作6">
+        	<p>瑞丰特别市</p>
+	</a>
+		<br><br><br>
+
+        <a href="https://cgy22.github.io/paintings/c593a7343f3342e78d45fdfb29646e8b.png">
+		<img src="https://cgy22.github.io/paintings/c593a7343f3342e78d45fdfb29646e8b.png" alt="画作7">
+        	<p>南𣿅省-南𣿅市</p>
+	</a>
+		<br><br><br>
+
+        <a href="https://cgy22.github.io/paintings/cf8998fe-9081-4e25-9203-94935c975c96.png">
+		<img src="https://cgy22.github.io/paintings/cf8998fe-9081-4e25-9203-94935c975c96.png" alt="画作8">
+        	<p>武宗特别市</p>
+	</a>
+		<br><br><br>
+
+        <a href="https://cgy22.github.io/paintings/577cb2ec0b4a4b528386258c8783e9ec.png">
+		<img src="https://cgy22.github.io/paintings/577cb2ec0b4a4b528386258c8783e9ec.png" alt="画作9">
+        	<p>王德发省-王德发市</p>
+	</a>
+		<br><br><br>
     </div>
 	
 <div id="bottom_div">
 	<div id="br"></div>
 	<p align="center">Produced by 1303CGY & ChatGPT</p>
 	<p align="center">Copyright ©2022-2023 Dornhub, All Rights Reserved.</p>
-	<p align="center">Verision: 2.1.1</p>
+	<p align="center">Verision: 1.0</p>
 	<div id="br"></div>
 </div>
   </body>
