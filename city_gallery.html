@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <title>DornGallery | 𣿅国画廊-航空</title>
+	  <link rel="icon" href="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimage2.sina.com.cn%2FIT%2Fother%2F2004-06-10%2FU73P2T1D374147F13DT20040610173949.jpg&refer=http%3A%2F%2Fimage2.sina.com.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1672128169&t=72b87204897814c21f69b40aec9b3ef4">
+	<style>
+		#title{
+			text-align: center;
+			color:#6499FF;
+		}
+		#title p{
+			color:#6499FF;
+			font-weight: 900;
+			font-size:35px;
+		}
+		#digital-clock {
+     			 font-family: Arial, sans-serif;
+  			 font-size: 48px;
+     			 color:#6499FF;
+     			 text-align: center;
+  		}
+		#Date {
+     			 font-family: Arial, sans-serif;
+  			 font-size: 48px;
+     			 color:#6499FF;
+     			 text-align: center;
+		}
+		#author{
+			color:grey;
+		}
+		#ch{
+			font-size: 25px;
+			font-weight: 900;
+			color: rgb(102,153,255);
+			border: 3px solid rgb(102,153,255);
+			border-radius: 30px;
+			width:100px;
+			height: 100px;
+			background: transparent;
+		}
+		#ch:hover{
+			background-color: rgb(102,153,255);
+			color: white;
+		}
+		#number{
+			font-size:50px;
+			color:rgb(102,153,255);
+		}
+		#inp{
+			font-size: 25px;
+			font-weight: 900;
+			color: rgb(102,153,255);
+			border: 1px solid rgb(102,153,255);
+			border-radius: 30px;
+			width:100px;
+			height: 30px;
+			background: transparent;
+		}
+		#nav{
+			position:absolute;
+			top:0px;
+			left:0px;
+			width:100%;
+			height:75px;
+			background-color:white;
+			position:fixed;
+		}
+		#navname1{
+			margin-left:175px;
+			font-weight:900;
+			background-color:transparent;
+			color:rgb(102,153,255);
+			font-size:30px;
+		}
+		#navname2{
+			font-weight:900;
+			height:50px;
+			color:white;
+			font-size:30px;
+			background-color:rgb(102,153,255);
+			border-radius:10px;
+		}
+		#navbut1,#navbut2,#navbut3,#navbut4,#navbut5,#navbut6,#navbut7,#navbut8,#navbut9{
+			width:80px;
+			color:black;
+			position:absolute;
+			top:0px;
+			height:75px;
+			background:transparent;
+			border:none;
+			position:stalic;
+		}
+		body{
+			width:100%;
+			height:100%;
+			background-color:rgb(240,240,240);
+		}
+		#navbut1{margin-left:5px;}
+		#navbut2{margin-left:85px;}
+		#navbut3{margin-left:165px;}
+		#navbut4{margin-left:245px;}
+		#navbut5{margin-left:325px;}
+		#navbut6{margin-left:405px;}
+		#navbut7{margin-left:485px;}
+		#navbut8{margin-left:565px;}
+		#navbut9{margin-left:645px;}
+		#navbut1:hover,#navbut2:hover,#navbut3:hover,#navbut4:hover,#navbut5:hover,#navbut6:hover,#navbut7:hover,#navbut8:hover,#navbut9:hover{
+			background-color:rgb(102,153,255);
+			color:white;
+		}
+		#center{
+			width: 50px;
+		}
+    input[type=text] {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 10%;
+  background-color: #6499FF;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+}
+		
+/* 设置a元素为块级，并添加背景色和边框 */
+a {
+
+/* 添加font-family属性，指定字体为微软雅黑 */
+font-family:"Microsoft YaHei";
+  
+/* 添加text-decoration属性，去掉下划线 */
+text-decoration:none; 
+
+/* 添加color属性，改变文字颜色 */
+color:black; 
+}
+		
+img {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			max-width: 100%;
+			height: auto;
+		}
+
+	</style>
+  </head>
+  <body>
+	<div id="nav">
+	<p>
+		<span id="navname1">Dorn</span>
+		<span id="navname2">&nbsp;Gallery&nbsp;</span>
+		&nbsp;&nbsp;
+		<button id="navbut1" onclick="window.open('https://dornhub.github.io/','_self');">Dornhub</button>
+		<button id="navbut2" onclick="window.open('https://dornhubpedia.wordpress.com/','_self');">𣿅国百科</button>
+		<button id="navbut3" onclick="window.open('https://dornstore.wordpress.com/','_self');">𣿅国商城</button>
+		<button id="navbut4" onclick="window.open('https://cgy22.github.io/dorn/random_number','_self');">随机抽号</button>
+		<button id="navbut5" onclick="window.open('https://cgy22.github.io/dorn/random_tonh','_self');">随机抽皓</button>
+		<button id="navbut6" onclick="window.open('https://www.bing.com/search?q=Bing+AI&showconv=1&FORM=hpcodx');">Bing AI(要工具)</button>
+		<button id="navbut7" onclick="window.open('https://dornhub.github.io/dgzl.html','_self');">关于𣿅国</button>
+		<button id="navbut8" onclick="window.open('https://cgy22.github.io/paintings/city_gallery.html','_self');">𣿅国画廊</button>
+		
+	</p>
+</div>
+<br><br><br>
+    <div id="title">
+		<p>DornGallery | 𣿅国画廊</p>
+	    	<p>航空篇 2023.6.2-2023.8.1</p>
+	</div>
+  
+<br><br><br><br><br>
+
+<div id="title">
+	<p>𣿅国的航空技术发展迅速，此处展示了𣿅国部分著名航空公司的飞机。</p>
+	  </div>
+
+	<div style="text-align:center;">
+	<a href="https://cgy22.github.io/paintings/blob-Draft-1682148752250.png">
+		<img width="30%" src="https://cgy22.github.io/paintings/blob-Draft-1682148752250.png" alt="画作1">
+		<p>总统小时候。</p>
+	</a>
+		<br><br><br>
+
+	<a href="https://cgy22.github.io/paintings/blob-Draft-1682148779180.png">
+		<img width="30%" src="https://cgy22.github.io/paintings/blob-Draft-1682148779180.png" alt="画作2">
+		<p>上大学时的总统。</p>
+	</a>
+		<br><br><br>
+
+	<a href="https://cgy22.github.io/paintings/blob-Draft-1682153103111.png">
+		<img width="30%" src="https://cgy22.github.io/paintings/blob-Draft-1682153103111.png" alt="画作3">
+		<p>总统参军，进入𣿅国护卫队空军，代表新兵发表讲话。</p>
+	</a>
+		<br><br><br>
+
+	<a href="https://cgy22.github.io/paintings/blob-Draft-1682149590479.png">
+        	<img width="30%" src="https://cgy22.github.io/paintings/blob-Draft-1682149590479.png" alt="画作4">
+        	<p>总统在𣿅国护卫队空军。</p>
+	</a>
+		<br><br><br>
+
+	<a href="https://cgy22.github.io/paintings/blob-Draft-1682149410929.png">
+        	<img width="30%" src="https://cgy22.github.io/paintings/blob-Draft-1682149410929.png" alt="画作5">
+        	<p>总统退役，进入民航工作。</p>
+	</a>
+		<br><br><br>
+
+        <a href="https://cgy22.github.io/paintings/blob-Draft-1682153152157.png">
+		<img width="30%" src="https://cgy22.github.io/paintings/blob-Draft-1682153152157.png" alt="画作6">
+        	<p>总统当选，发表就职演讲。</p>
+	</a>
+		<br><br><br>
+
+        <a href="https://cgy22.github.io/paintings/tonh.jpg">
+		<img width="30%" src="https://cgy22.github.io/paintings/tonh.jpg" alt="画作7">
+        	<p>今日的总统。</p>
+	</a>
+		<br><br><br>
+    </div>
+	
+<div id="bottom_div">
+	<div id="br"></div>
+	<p align="center">Produced by 1303CGY & ChatGPT</p>
+	<p align="center">Copyright ©2022-2023 Dornhub, All Rights Reserved.</p>
+	<p align="center">Verision: 1.0</p>
+	<div id="br"></div>
+</div>
+  </body>
+  <script>
+  </script>
+</html>
